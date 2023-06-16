@@ -73,7 +73,7 @@ class Persona:
                                                 'year of birth':self.fecha_nacimiento,
                                                 'Gender':self.genero}
         else:
-            print('Error. Operación cancelada')
+            print('Error. Operación de alta cancelada')
             return False
  
     
@@ -254,8 +254,8 @@ class Usuario(Persona):
                                                     'Occupation':self.ocupacion,
                                                     'Active Since':self.fecha_alta}
         else: 
-            self.baja_persona(df_personas)
-            print('No puede darse de alta el trabajador')
+            
+            print('No puede darse de alta el usuario')
 
     def baja_usuario(self,df_usuarios):
 
